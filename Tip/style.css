@@ -1,0 +1,36 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    justify-content:center;
+    display:block;
+    float:center;
+    border:1px solid #fff;
+    color: #000;
+    background: #fff;
+    background-color: #fff;
+    font-size: 15px;
+    font-weight:600;
+    font-family: 'Montserrat',sans-serif;
+}
+
+body{
+    padding:12px;
+    margin: 12px;
+    box-sizing: border-box;
+    justify-content:center;
+    align-items:center;
+    align-items:center;
+    display:flex;
+    font-size: 15px;
+    font-weight:600;
+    font-family:'Open Sans',sans-serif;
+    border:1px solid #fff;
+    border-color: #fff;
+    color: #000;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex-basis: auto;
+    flex-flow: column;
+    direction:inherit;
+}

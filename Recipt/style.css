@@ -1,0 +1,29 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    justify-content:center;
+    align-items:center;
+    display: flex;
+    font-size: 12px;
+    font-weight:400;
+    font-family: 'Lobster' sans-serif;
+    flex-wrap: wrap;
+    background-color:#fff;
+    border:1px solid #fff;
+}
+
+body{
+    margin:4px;
+    padding:5px;
+    border:1px solid #000;
+    flex-wrap: wrap;
+    font-size:15px;
+    font-weight:400;
+    font-family:'Montserrat',sans-serif;
+    flex-direction: column;
+    flex-basis: auto;
+    justify-content:center;
+    align-items:center;
+    display:block;
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>HEX Backgroun change</title>
+</head>
+<body>
+    <div class="container">
+        <h1 id="colour">HEX COLOR:#E63C44</h1>
+        <button id="change" type="button">Click Me</button>
+    </div>
+
+    <script>
+
+        var btn = document.getElementById('change');
+        var text = document.getElementById('colour');
+        
+        var genrator = function(){
+            newColour = '#' +
+            (Math.random()*0xFFFFFF<<0).toString(16);
+            console.log(newColour.lenth);
+            if(newColour.lenth<7) {
+                genrator();
+            }
+        }
+
+        btn.addEventListener('click' , function(){
+            genrator();
+            
+            document.body.style.background = newColour;
+            btn.style.color = newColour;
+            text.innerText = newColour;
+        });
+
+    </script>
+</body>
+</html>
